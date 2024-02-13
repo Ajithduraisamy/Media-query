@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        @media screen and (max-width:500px){
+            .main{
+                background-color: green;
+            }
+        }
+        @media screen and (min-width:600px) {
+            div{
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form class="main">
+            <label for="firstname">Firstname</label><br>
+            <input type="firstname" name="Firstname" id="firstname" required><br>
+            <label for="middlename">Middlename</label><br>
+            <input type="middlename" name="Middlename" id="middlename" required><br>
+            <label for="lastname">Lastname</label><br>
+            <input type="lastname" name="Lastname" id="lastname" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="Email" id="email" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="Password" id="password" required><br>
+            <label for="submit"></label><br>
+            <input type="submit" name="Submit" id="submit" required><br>
+            <input type="button" value="Login"><input type="button" value="Sign-up">
+        </form>
+</div>
+</body>
+</html>
